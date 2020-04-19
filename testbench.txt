@@ -1,0 +1,23 @@
+process 
+begin
+a<='0';
+wait for 10 ns;
+a<='1';
+wait for 10 ns;
+end process;
+
+process 
+begin
+b<='0';
+wait for 10 ns;
+b<='1';
+wait for 10 ns;
+end process;
+
+process 
+begin
+c<='0';
+wait for 10 ns;
+c<='1';
+wait for 10 ns;
+end process;
